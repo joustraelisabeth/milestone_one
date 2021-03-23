@@ -1,13 +1,98 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
-
-header {
-    margin:0;
+/* ----------------------------------------------------Backgrounds */
+body {
+  overflow: hidden;
 }
 
-.logo {
+.bg-home {   
+background-image: url("../images/beauty_wild_2.jpg");
+position: absolute;
+height: 700px;
+width: 100%;
+margin-top: -10px;
+margin-left: -8px; 
 
-    background: url("assets/images/rosie.jpg");
+}
 
+/* ----------------------------------------------------Menu */
 
+.menu-design li {
 
+    float: right;
+    list-style-type: none;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-right: 20px;   
+}
+
+.menu-design a {
+    text-decoration: none;
+    color:#fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: large;
+}
+
+.menu-design a:hover {
+    text-decoration: none;
+    color:#569961;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: large;
+}
+
+#displayed-file {
+   text-decoration: underline overline;
+}
+
+/* ----------------------------------------------------Info-text Home */
+
+.intro-text-square {
+    height: 60vh;
+    width: 70vw;
+    background-color:rgba(192,192,192,0.7);
+    position: relative;
+    margin-left: 20vw; 
+    margin-right:10vw;
+    margin-top: 20vh;
+    margin-bottom:30vh;
+    text-align: center;
+    border-radius: 5rem;
+    
+}
+
+.call-out  {
+    color:rgb(24, 66, 45);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: xx-large;
+    
+}
+
+.intro-text-square p {
+    color:rgb(24, 66, 45);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: x-large;
+}
+
+.signup {
+    background:#fff;
+    color:rgb(24, 66, 45);
+    border-color: rgb(24, 66, 45); ;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 2rem;
+    font-weight: bold;
+    font-size: x-large;
+    padding: 2vh;
+}
+
+.signup:hover {
+    color:#fff;
+    border-color: #fff;
+    background:rgb(24, 66, 45);
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 2rem;
+    font-weight: bold;
+    font-size: x-large;
+    padding: 2vh;
 }
