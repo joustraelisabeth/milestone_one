@@ -34,14 +34,14 @@ margin-left: -8px;
 
 .menu-design a:hover {
     text-decoration: none;
-    color:#569961;
+    color:#274F35;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     font-size: large;
 }
 
 #displayed-file {
-   text-decoration: underline overline;
+   text-decoration: underline overline solid;
 }
 
 /* ----------------------------------------------------Info-text Home */
@@ -61,7 +61,7 @@ margin-left: -8px;
 }
 
 .call-out  {
-    color:rgb(24, 66, 45);
+    color:#274F35;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     font-size: xx-large;
@@ -69,16 +69,19 @@ margin-left: -8px;
 }
 
 .intro-text-square p {
-    color:rgb(24, 66, 45);
+    color:#274F35;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     font-size: x-large;
+    margin: 20px; 10px;
 }
 
-.signup {
+/* ----------------------------------------------------Sign Up button */
+
+.signup button {
     background:#fff;
-    color:rgb(24, 66, 45);
-    border-color: rgb(24, 66, 45); ;
+    color:#274F35;
+    border-color: #274F35; 
     font-family: Arial, Helvetica, sans-serif;
     border-radius: 2rem;
     font-weight: bold;
@@ -86,13 +89,46 @@ margin-left: -8px;
     padding: 2vh;
 }
 
-.signup:hover {
+.signup button:hover {
     color:#fff;
     border-color: #fff;
-    background:rgb(24, 66, 45);
+    background:#274F35;
     font-family: Arial, Helvetica, sans-serif;
     border-radius: 2rem;
     font-weight: bold;
     font-size: x-large;
     padding: 2vh;
 }
+
+/* ----------------------------------------------------------Footer */
+.footer-design {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    margin-top: 10px;
+    background-color:#274F35;
+    color:#fff;
+    border-color:#fff;
+    text-align: center;
+    width: 100vw;
+    height: 7vh;
+    z-index: 1;
+    font-size: small;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    letter-spacing: 4px;
+    
+}
+
+.footer-design a, i {
+   
+    color:#fff;
+    
+    text-align: center;
+    
+    font-size: large;
+   
+    font-weight: bold;
+}
+
+
