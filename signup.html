@@ -20,27 +20,55 @@
      <div class= "bg-home">
      <header>
          
-
+        
+       
          <ul class="menu-design">
-             <li><a href="signup.html">Sign Up</a></li>
+             <li><a href="signup.html" id="displayed-file">Sign Up</a></li>
              <li><a href="about.html">About</a></li>
-             <li><a href="index.html" id="displayed-file">Home</a></li>
+             <li><a href="index.html">Home</a></li>
 
          </ul>
+        
          
          </header>
 
          <section>
-            <div class="intro-text-square">
+            <div class="form-square-signup">
                 <br>
-                <h1 class="call-out">Discower the wildlife in<br>
-                 the surroundings of Uppsala!
-                </h1>
+                <p>IYes I want to join!
+                </p>
+                 <form>
+                 <label for="fname" class="label">First name: </label>  <input class="input" type="text" id="fname" name="fname" size="20" required/>
+                 <br>
+                 <label for="lname" class="label">Last name: </label>  <input class="input" type="text" id="lname" name="lname" size="20" required/>
+                 <br>
+                 <label for="email" class="label">Email: </label>  <input class="input" type="email" id="email" name="email" size="25" required/>
+                 <br>
+                 <p>I am especially interested to join:
+                </p>
+                <label for="guided_tour" class="label">Guided tour</label>
+                 <input type="radio" class="radio" id="guided_tour" value="guided_tour" name="join" required/>
+                 
+                 <br>
+                 <label for="cooking" class="label">Making fire and cooking</label>
+                 <input type="radio" class="radio" id="cooking" value="cooking" name="join"/>
+                 
+                 <br>
+                 <label for="fellowship" class="label">Games and fellowsip</label>
+                 <input type="radio" class="radio" id="fellowship" value="fellowship" name="join"/>
+                 
+                 <br>
+                 <textarea rows="5" cols="30" class="textarea" name="comment">More:</textarea>
+                 <br>
+                 
+                  <button type="reset" class="res-button">Reset</button>
+                  <button type="submit" class="sg-button">Join Us!</button>
                 
-                     <p>
-                      Join us and let us together enjoy and explore!
-                     </p>
-                     <a href="signup.html" class="signup"><button>Sign Up</button></a>
+                 </form>
+                 
+                   
+                 
+                
             </div>
         </section>
         <footer>
