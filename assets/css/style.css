@@ -100,6 +100,36 @@ margin-left: -8px;
     padding: 2vh;
 }
 
+/* ----------------------------------------------------About page */
+
+.square-about {
+
+    height: 70vh;
+    width: 90vw;
+    background-color:rgba(192,192,192,0.8);
+    position: relative;
+    margin-left: 5vw; 
+    margin-right:5vw;
+    margin-top: 15vh;
+    margin-bottom: 15vh;
+    text-align: center;
+    border-radius: 2rem;
+
+}
+
+
+.box  {
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color:#274F35;
+    width: 20vw;
+    text-align:left;
+    margin: 50px; 50px;
+
+}
+
+
 
 /* ----------------------------------------------------Sign Up page */
 
@@ -135,7 +165,7 @@ margin-left: -8px;
     font-size: medium;
 }
 
-.input, textarea {
+.input, .textarea {
     background-color: rgba(118, 156, 75, 0.5);
     color:#fff;
     border: 2px solid #274F35;

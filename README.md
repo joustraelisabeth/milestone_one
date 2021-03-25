@@ -1,45 +1,80 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
-Welcome joustraelisabeth,
+## This is README about this mile-stone one project
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use.
+### This site is for marketing DWU.   
+The business idea is to meet the need of enjoying and discovering the wild life in the surroundings nearby and also the need of fellowship, especially now in the times of the pandemic.
+### The owners goal:
+Get new members to join and take part of different activities and to increase their services.
+### The users goal:
+Get information about what DWU can do for them, get inspiration from beautiful pictures in the wild and the possibility to sign up and also write some personal preferences.
 
-## Gitpod Reminders
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+## UX
+The userexperience:
+To meet the needs of both 2C2 and 2B2.
+2C2 (Often impulsive and emotional actions) should get the possibility already on the first side with a Sign Up button in the middle of the page (Hero image)
+2B2 (Often a group of people who want to know more an discuss before they take a decision) should get the possibility on the first page to go to the About side and read more before going to the Sign Up page.
 
-`python3 -m http.server`
 
-A blue button should appear to click: *Make Public*,
+## Features
+The site har three pages; Index (Home) About  and Sign Up 
+On every site a nav in the top to the right with a list with links to the different pages. They should be displayed with an active command so the user know where they are.
+On every site a footer with  links to social media Face book and Instagram (With links from Font awesome) 
+Index: A header with a background-image that covers the entire body and a square  with a short text and a sign Up botton with hover effect that takes them directly to the Sign Up page for group 2C2 (if they wish). The  square with a nice colour and with opacity (rgba)
+About More information about the tree different activities. Three photos shown as a circle. With text under.
+Sign Up A form with contains a form to fill in First name Last name and Email adress. A possibility to chose activity and to give more information. Every type with a label in front. 
+It should also be a list with radiobuttons with labels. Three alternatives: 1. Guided tour in the wild 2. Learning how to make fire and cook in the wild 3. Games and felowship in the wild. There should also be a textarea beneath were they can add special information if they wish.  
 
-Another blue button should appear to click: *Open Browser*.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+**Features Left to Implement** 
 
-A blue button should appear to click: *Make Public*,
+1.    Adjust the page so it is responsive to different devices 
+2.    To make a confirmation document or at least something that after they have pressed the submit button in the Sign Up Form?
+3.    Three photos in circle boxes in the About side
 
-Another blue button should appear to click: *Open Browser*.
+## Media:
+ The background-image is taken with my Iphone. 
+## Credits: 
+I took insipration for the four projects in the course: The Coders Coffehouse, Love Running, Whiskey Drop and Rosie Odenkirk. 
+The Coders cofeehouse: The fixed footer
+Love Running: The menu with links and the signup page
+Whiskey Drop: The Sign Up button and the hover effects
+Rosie Odenkirk: The textarea as a complement to the form
+Where using w3schools most of the time to learn and remember things we have learnt. Did´t copy any code and tried to do it from the beginning to learn and repeat.
+Sorry didn´t made it with responsive design. 
+## Technological utilities: 
+Have been observing the tab "Problems in Gitpod"
+Have made commmitments to git; "initial", "index done", "signup done".
+Have been using the devtools in Google to see how it was displayed in Iphone six.
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+## Technologies:
+Made first wireframenr1 (attached here) Sent it to the mentor according to agreement.
+Before our second chat decided to reduce it to wireframe2.
 
-## Updates Since The Instructional Video
+The background picture was made to landscape size and saved as acopy with low resolution in Photopad.
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+Background picture in a div as a wrapper. (Preparing for different photos on different pages )
+Hade to solve the margins with -20px; (top) and -8px; (left). Was searching in W3schools for position and to get rid of the scrollbar.
+Added overflow:hidden in the body and position:absolute; to the div.
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+The square in the middle: Used vh and vw so it should be more responsive to different devices.
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+The menu: In this had case had to look at the code in Love Running but remade the margins and the text-decoration for the displayed
+pages after using w3schools.
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+The footer: Was learning in w3schools how to do it and also remembered from the lessons about font-awesome.
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+The about page: Used display:inlineblock and vw for the different divs. Tried with spans at first but it didnt work.
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+The Sign Up page: Took inspiration from Love Running Sign Up page but wrote the code with help from w3schools. 
+was creating classes and did som styling.
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+Otherwise different things have been solved in threw styling different classnames.
+Hope fully the css file can give some insight in that.
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+Thanks for your time to read this.
 
---------
+Elisabeth Joustra 210325
 
-Happy coding!
+
+
