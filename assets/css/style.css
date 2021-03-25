@@ -137,11 +137,11 @@ margin-left: -8px;
 .form-square-signup {
 
     height: 80vh;
-    width: 60vw;
+    width: 50vw;
     background-color:rgba(192,192,192,0.7);
     position: relative;
     margin-left: 25vw; 
-    margin-right: 15vw;
+    margin-right: 25vw;
     margin-top: 10vh;
     margin-bottom: 10vh;
     text-align: center;
