@@ -136,16 +136,16 @@ margin-left: -8px;
 
 .form-square-signup {
 
-    height: 70vh;
-    width: 90vw;
+    height: 80vh;
+    width: 60vw;
     background-color:rgba(192,192,192,0.7);
     position: relative;
-    margin-left: 5vw; 
-    margin-right:5vw;
-    margin-top: 15vh;
-    margin-bottom: 15vh;
+    margin-left: 25vw; 
+    margin-right: 15vw;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
     text-align: center;
-    border-radius: 2rem;
+    border-radius: 5rem;
 
 }
 
@@ -166,6 +166,14 @@ margin-left: -8px;
 }
 
 .input, .textarea {
+    background-color: rgba(118, 156, 75, 0.5);
+    color:#fff;
+    border: 2px solid #274F35;
+    border-radius: 3px;
+    margin: 5px; 0;
+}
+
+.input:hover, .textarea:hover {
     background-color: rgba(118, 156, 75, 0.5);
     color:#fff;
     border: 2px solid #274F35;
